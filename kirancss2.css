@@ -1,0 +1,317 @@
+#top_nav{
+    background-color:#daac00!important;
+    padding: 0 6%;
+    
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+}
+#h{
+    padding-left: 40px;
+    font-weight: 500;
+}
+#a{
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+#s{
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+#c{
+    padding-left: 40px;
+    font-weight: 500;
+}
+#searchbox{
+    position: relative;
+    left: 50px;
+   border-radius: 0;
+   border: 0;
+   
+}
+#searchbtn{
+    z-index: 1;
+    border: 0;
+    border-radius: 0;
+
+}
+
+@media only screen and (max-width:500px){
+   #top_nav{
+    padding: 0;
+   }
+    
+}
+@media only screen and (max-width:768px){
+#search_form{
+    position: relative;
+    left: -20px;
+
+}
+
+#logo{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+#top_nav{
+    padding-bottom: 30px;
+    
+}
+#banner-logo{
+    position: relative;
+    right:100px;
+    top: 100px;
+}
+#ser-img{
+    padding-right: 200px;
+}
+
+}
+#banner{
+    background-color: #fcc302;
+    padding-bottom:  40px;
+    padding-top: 40px;
+}
+#banner-txt h1{
+    font-size: 55px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+#banner-txt p{
+ font-size: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+#btn1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;;
+}
+#btn2{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+    margin-left: 15px;
+}
+#banner-logo{
+    position: relative;
+    left: 100px;
+}
+@media only screen and (max-width: 1041px){
+ #banner-txt h1{
+     font-size: 35px;
+ }
+
+}
+
+/* services */
+#ser-img{
+    
+    margin-left: 100px;
+    padding: 5%;
+    /* height: 200px; */
+    width: 450px;
+    position: relative;
+    top: 100px;
+    
+}
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#ser-btn{
+    color: black;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+@media only screen and (max-width: 800px){
+   #ser-img{
+    width: 400px;
+   position: relative;
+   right: 180px;
+   top:-22px ;
+   padding-top: 25px;
+   
+   
+
+   }
+
+
+}
+@media only screen and (max-width: 600px){
+
+#ser-img{
+    width: 500px;
+
+}
+.img-service{
+ 
+    gap: 1rem;
+}
+.img-service p{
+    
+    font-size: 5px;
+}
+.img-service2{
+ 
+    gap: 1rem;
+}
+#down1 h1{
+    font-size: 10px;
+}
+#p1h{
+    font-size: 20px;
+    font-weight: 500;
+}
+#p2h{
+    font-size: 15px;
+
+}
+
+}
+#ser-h
+
+{
+    color:#193a6a;;
+}
+.ser-heading span{
+    color:#fcc302;
+}
+.ser-heading{
+    padding-left: 30px;
+}
+.img-service{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-service p{
+    text-align: center;
+    font-size: 20px;
+}
+.img-service2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.img-service2 p{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.ser-down{
+    height: 120px;
+    background-color:#daac00;
+   
+    text-align: center;
+}
+.down1{
+    align-items: center;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    
+
+    
+}
+#p1h{
+    font-size: 40px;
+    font-weight: 500;
+}
+#p2h{
+   position: relative;
+   bottom: 20px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 700px){
+    #p1h{
+        font-size: 19px;
+        font-weight: 500;
+        padding-right: 60px;
+    }
+    #p2h{
+        position: relative;
+        bottom: 20px;
+         font-size: 14px;
+         padding-right: 40px;
+     }
+     .ser-down{
+        
+       
+        text-align: center;
+    }
+     
+
+}
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#foot-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#foot-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 10px;
+    max-width: 300px;
+    position: relative;
+    left: 10px;
+}
+#foot-btn{
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+.icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+@media only screen and (max-width: 500px){
+    #foot-box{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 15px;
+    }
+    #footer h5{
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
